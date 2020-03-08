@@ -1,0 +1,22 @@
+ Rule No 1: Use Double Quote For String
+
+           In Go Lang , String is represented as "viveshCodes" . 'viveshCodes' will throw an error if you use it as string.
+ 
+Rule No 2 : How is variable declared at package level
+
+            At package level we follow this style of declaring variable :
+            (i)var num1 int =7781
+            (ii) or use factored method
+
+Rule No 3 : Variable naming conventions for their scope
+            (i) At package level : var number int = 7 
+                This variable number (lowercase first letter) can be accessed anywhere in the same package .
+            (ii) At package level : var Number int = 7 
+                This variable number (uppercase first letter ) can be available globally , i.e, available to other packages also
+            (iii) Block level : Variable declared at block level or function level can be available to particular function only
+
+Rule No 4 : How to work with Acronym
+            It's a good practice to declare variable ,which reflects Acronym , in Uppercase
+            For example,
+            var theHTTP string = "https://www.google.com"
+            var theURL string ="https://www.google/com"
