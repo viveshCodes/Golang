@@ -7,7 +7,7 @@ import (
 func main() {
 	var s string = "This is a string"
 	// Let's do byte slicing here
-	byte_slice := []byte(s)
+	byteSlice := []byte(s)
 
 	fmt.Printf("Value for s[2] = %v  and Type = %T \n", s[2], s[2])
 	fmt.Printf("Value for string(s[2]) = %v  and Type = %T \n", string(s[2]), string(s[2]))

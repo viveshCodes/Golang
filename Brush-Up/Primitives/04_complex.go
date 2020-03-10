@@ -5,7 +5,8 @@ import (
 )
 
 func main() {
-	var complex_num complex64 = 1 + 7i
+	var complexNum complex64 = 1 + 7i
+	// var complexNum complex64 = complex(1,7)
 	fmt.Printf("Value = %v and Type = %T", complex_num, complex_num)
 	fmt.Printf("Real part = %v  and Imaginary part = %v", real(complex_num), imag(complex_num))
 }
