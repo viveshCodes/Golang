@@ -19,7 +19,7 @@ func main() {
 	fmt.Printf("Length : %v\n", len(sliceExample))
 	fmt.Printf("Capacity : %v\n", cap(sliceExample))
 
-	// Let's apend more values and concatenate with previous value
+	// Let's append more values and concatenate with previous value
 	sliceExample = append(sliceExample, 1, 7, 9, 2, 3, 5)
 	fmt.Println(sliceExample)
 	fmt.Printf("Length : %v\n", len(sliceExample))

@@ -7,6 +7,7 @@ Rule No 2 : How is variable declared at package level
             At package level we follow this style of declaring variable :
             (i)var num1 int =7781
             (ii) or use factored method
+            (iii) We can't use := declaration here
 
 Rule No 3 : Variable naming conventions for their scope
             (i) At package level : var number int = 7 
@@ -20,3 +21,11 @@ Rule No 4 : How to work with Acronym
             For example,
             var theHTTP string = "https://www.google.com"
             var theURL string ="https://www.google/com"
+
+Rule No 5 : What do we have for printing and scanning 
+            Print 
+            Println
+            Printf
+
+            Scanln
+            Scan            
