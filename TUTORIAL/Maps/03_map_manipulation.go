@@ -19,10 +19,26 @@ func main(){
 	// To be clear if Mumbai really exists
 	pop , ok := cityPopulation["Mumbai"]
 	fmt.Printf("Pop = %v Ok = %v ",pop,ok)
+
+	//Or simply ,
+	_,present := cityPopulation["Delhi"]
+	fmt.Println(present)
+
+	fmt.Println("Number of elements in the map ="len(cityPopulation))
+	
 }
 /*OUTPUT
 _________
 The popultaion of Mumbai is 2013
 The popultaion of mumbai is  0
 Pop = 0 Ok = false 
+true
+Number of elements in the map = 3
+_________________________________
+Note : For thi code snippet,
+pop ,ok:=cityPopulation["Chenaai"]
+fmt.Printf("Pop =%v Ok =%v",pop,ok)
+
+output would have been :
+Pop = 2005 Ok = true
 */
