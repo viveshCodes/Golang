@@ -36,13 +36,13 @@ ___________________________________________________________________
 ___________________________________________________________________
 
 	Bitwise Operations Available :
-	&
-	|
-	^
-	&^
+	&   (AND)
+	|   (OR)
+	^   (XOR)
+	&^  (XNOR)
 
 	Shift Available :
-	right shift (>>)
-	left shift (<<)
+	right shift (>>)  (Number / 2^shift_amount)
+	left shift (<<)   (Number * 2^shift_amount)
 ________________________________________________________________
 */

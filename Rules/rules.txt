@@ -29,3 +29,13 @@ Rule No 5 : What do we have for printing and scanning
 
             Scanln
             Scan            
+
+ Rule No 6 : Every time we declare a variable in Golang , zero value is initialized to it.  
+
+ Rule No 7 : We can't manipulate string, i.e,
+            s:= "This Is String"
+            we can't do s[2]="v"
+
+Rule No 8 :  (i)We can't check equivalency of certain data types like Slice ,Map ,etc. 
+             (ii) Slice can't be key to map.    But array can be a key type in map.
+                      
