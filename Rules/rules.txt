@@ -43,4 +43,6 @@ Rule No 9 : (i) copying works in Array
             (ii) copying doesn't work in Slice and Map
 
 Rule No 10 : All the test(value) must be unique in SWITCH-CASE . If we're using multiple tests in a single CASE,
-             no test should be duplicated in any other CASEs.                     
+             no test should be duplicated in any other CASEs.
+
+Rule No 11 : In tagless switch , our cases can overlap.                  
