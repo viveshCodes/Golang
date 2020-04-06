@@ -2,12 +2,10 @@ Golang Rules
 
 
 Rule No 1: Use Double Quote For String
-
-    In Golang , String is represented as "viveshCodes" . 'viveshCodes' will throw  an error  .   if we use it as a string.
+In Golang , String is represented as "viveshCodes" . 'viveshCodes' will throw  an error  .   if we use it as a string.
  
 Rule No 2 : How  variable is  declared at package level
-
- At package level , we follow the following style of declaring variable :
+At package level , we follow the following style of declaring variable :
             (i) var num1 int =7781  or ,
             (ii) Use factored method
             (iii) We can't use :=  declaration here
@@ -23,35 +21,36 @@ This variable number (uppercase first letter ) can be available globally , i.e, 
 				Variable declared at block level or function level can be available to particular function only
 
 Rule No 4 : How to work with acronym
- It's a good practice to declare variable ,which reflects Acronym , in Uppercase
+It's a good practice to declare variable ,which reflects Acronym , in Uppercase
             For example,
             var theHTTP string = "https://www.google.com"
             var theURL string ="https://www.google/com"
 
 Rule No 5 : What  we have for printing and scanning 
            (i) Print, Println, Printf
-	 (ii) Scanln, Scan
+	       (ii) Scanln, Scan
             
- Rule No 6 : 
-		Every time we declare a variable in Golang , zero value is initialized to it.  
+Rule No 6 : 
+		    Every time we declare a variable in Golang , zero value is initialized to it.  
 
- Rule No 7 :
-		 We can't manipulate string, i.e,
+Rule No 7 :
+		    We can't manipulate string, i.e,
             s:= "This Is String"
             we can't do s[2]="v"
 
 Rule No 8 : 
 		 (i)We can't check equivalency of certain data types like Slice ,Map ,etc. 
-                      (ii) Slice can't be key to map but Array.
+         (ii) Slice can't be key to map but Array.
 
 Rule No 9 : 
 	       (i) copying works in Array 
-                  (ii) copying doesn't work in Slice and Map
+           (ii) copying doesn't work in Slice and Map
 
 Rule No 10 :
-                     All the tests (values) must be unique in SWITCH-CASE . If we're using multiple tests in a single CASE, no test should be duplicated in any other CASE.
+             All the tests (values) must be unique in SWITCH-CASE . If we're using multiple tests in a single CASE, no test should be duplicated in any other CASE.
 
 Rule No 11 : 
-		In tagless switch , our cases can overlap.  
+		   In tagless switch , our cases can overlap.  
 
-Rule No 12 :
+Rule No 12 : 
+            In Golang , increment / decerement operators are not expressions , they're statement in themselves.
