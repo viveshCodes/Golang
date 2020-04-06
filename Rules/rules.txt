@@ -56,9 +56,9 @@ Rule No 12 :
             In Golang , increment / decerement operators are not expressions , they're statement in themselves.
 
 Rule No 13 :
-            Order of function execution in Golang,
+            Order of execution in Golang,
              start of main function -> defer -> panic ->termination of main function
 
 Rule No 14 : Execution of defer
-defer follows "Last Open First Close" approach. So, the defer function which will be called at last will be the one to be executed first.
-If any value is associated with defer function , the value during execution will be the same which was during call of the function . 
+defer follows "Last Open First Close" approach. So, the defer statement which will be called at last will be the one to be executed first.
+If any value is associated with defer statement , the value during execution will be the same which was during call of the function . 
